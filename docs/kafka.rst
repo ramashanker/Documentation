@@ -1,5 +1,5 @@
 ======================
-Kafka Documantation
+Apache Kafka Documantation
 ======================
 	Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java.
 	The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds
@@ -84,7 +84,7 @@ Publish message to the kafka topic With SSL::
 			--producer-property ssl.truststore.location=truststore.jks \
 			--producer-property ssl.truststore.password=fastdata
 
-Consume Message from kafka topic with SSL:
+Consume Message from kafka topic with SSL::
 
 		kafka-console-consumer --bootstrap-server localhost:9093 --topic test.topic \
     		--consumer-property bootstrap.servers=localhost:9093 \
@@ -96,7 +96,7 @@ Consume Message from kafka topic with SSL:
     		--consumer-property ssl.truststore.password=fastdata
 
 
-Provide SSL configuration to springboot yml file:
+Provide SSL configuration to springboot yml file::
 
 		server:
     	  port: 9095
@@ -121,7 +121,7 @@ Provide SSL configuration to springboot yml file:
     	      key-serializer: org.apache.kafka.common.serialization.StringSerializer
           value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
-Property file SSL configuration:
+Property file SSL configuration::
 		props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, "SSL");
 		props.put(SslConfigs.SSL_TRUSTSTORE_LOCATION_CONFIG, "C:/security/truststore.jks");
 		props.put(SslConfigs.SSL_TRUSTSTORE_PASSWORD_CONFIG,  "fastdata");
