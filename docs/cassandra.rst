@@ -7,6 +7,7 @@ Start Cassandra With docker::
 	docker run --name local-cassandra -d -e CASSANDRA_BROADCAST_ADDRESS=0:0:0:0:0:0:0:1 CASSANDRA_SEEDS=0:0:0:0:0:0:0:1 -p 7199:7199 9042:9042 7000:7001 9160:9160 cassandra:3.10
 
 Start Cassandra With docker compose::
+
 	version: '3'
 	services:
 		cassendra:
