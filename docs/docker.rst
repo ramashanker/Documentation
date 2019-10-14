@@ -6,7 +6,8 @@ Docker
     they can communicate with each other through well-defined channels.
 
 Docker Commands::
-		docker volume ls                                        #List volume bind to docker
-		docker volume ls -qf dangling=true                      #Dangling or unused volume bind
-		docker volume rm $(docker volume ls -qf dangling=true)  #Remove the un used volume
+
+	docker volume ls                                        #List volume bind to docker
+	docker volume ls -qf dangling=true                      #Dangling or unused volume bind
+	docker volume rm $(docker volume ls -qf dangling=true)  #Remove the un used volume
 

@@ -1,5 +1,5 @@
 ======================
-Apache Kafka Documantation
+Kafka
 ======================
 	Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java.
 	The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds
@@ -29,11 +29,9 @@ Start with docker compose::
 		my-app:
 			driver: bridge
 
-===============
-Kafka With SSL
-===============
 
-Start with docker::
+
+Start with docker and enable SSL::
 
 	docker run -d --net=host -e ENABLE_SSL=1 -e SAMPLEDATA=0 -e KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND=true -e LENSES_KAFKA_BROKERS=SSL://0.0.0.0:9093 -e LENSES_KAFKA_SETTINGS_CONSUMER_SECURITY_PROTOCOL=SSL -e LENSES_KAFKA_SETTINGS_PRODUCER_SECURITY_PROTOCOL=SSL -p 2181:2181 -p 3030:3030 -p 9093:9093 -p 9092:9092 -p 8081:8081 -p 9581-9585:9581-9581 landoop/fast-data-dev:latest
 
@@ -98,37 +96,39 @@ Consume Message from kafka topic with SSL::
 
 Provide SSL configuration to springboot yml file::
 
-		server:
-    	  port: 9095
-    	spring:
-    	  application:
-    	      name: kafka-app
-    	  kafka:
-    	    topic: test.topic
-    	    bootstrap-servers: localhost:9093
-    	    ssl:
-    	         truststore-location: file:/C:/security/truststore.jks
-    	         truststore-password: fastdata
-    			 trust-store-type: PKCS12
-    	         keystore-location: file:/C:/security/client.jks
-    	         keystore-password: fastdata
-    			 key-store-type: PKCS12
-    	         key-password: fastdata
-    		properties:
-    	       security:
-    	          protocol: SSL
-    	    producer:
-    	      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-          value-serializer: org.apache.kafka.common.serialization.StringSerializer
+	server:
+		port: 9095
+	spring:
+		application:
+			name: kafka-app
+		kafka:
+			topic: test.topic
+			bootstrap-servers: localhost:9093
+			ssl:
+				truststore-location: file:/C:/security/truststore.jks
+				truststore-password: fastdata
+				trust-store-type: PKCS12
+				keystore-location: file:/C:/security/client.jks
+				keystore-password: fastdata
+				key-store-type: PKCS12
+				key-password: fastdata
+			properties:
+				security:
+					protocol: SSL
+			producer:
+				key-serializer: org.apache.kafka.common.serialization.StringSerializer
+				value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
 Property file SSL configuration::
-		props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, "SSL");
-		props.put(SslConfigs.SSL_TRUSTSTORE_LOCATION_CONFIG, "C:/security/truststore.jks");
-		props.put(SslConfigs.SSL_TRUSTSTORE_PASSWORD_CONFIG,  "fastdata");
-		props.put(SslConfigs.SSL_KEYSTORE_LOCATION_CONFIG, "C:/security/client.jks");
-		props.put(SslConfigs.SSL_KEYSTORE_PASSWORD_CONFIG, "fastdata");
-		props.put(SslConfigs.SSL_KEY_PASSWORD_CONFIG, "fastdata");
+
+	props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, "SSL");
+	props.put(SslConfigs.SSL_TRUSTSTORE_LOCATION_CONFIG, "C:/security/truststore.jks");
+	props.put(SslConfigs.SSL_TRUSTSTORE_PASSWORD_CONFIG,  "fastdata");
+	props.put(SslConfigs.SSL_KEYSTORE_LOCATION_CONFIG, "C:/security/client.jks");
+	props.put(SslConfigs.SSL_KEYSTORE_PASSWORD_CONFIG, "fastdata");
+	props.put(SslConfigs.SSL_KEY_PASSWORD_CONFIG, "fastdata");
 
 Describe JKS file or SSL::
-		echo "certificate base64 value"| base64 -d> trust.jks
-		echo ""| base64 -d> trust.jks
+
+	echo "certificate base64 value"| base64 -d> trust.jks
+	echo ""| base64 -d> trust.jks
