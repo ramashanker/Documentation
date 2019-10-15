@@ -12,10 +12,16 @@ Create Account to docker hub:
 
 Docker Login::
 
-	docker login                                        #login to docker hub
+	docker login                                           #login to docker hub
 
 Docker Commands::
 
-	docker volume ls                                        #List volume bind to docker
-	docker volume ls -qf dangling=true                      #Dangling or unused volume bind
-	docker volume rm $(docker volume ls -qf dangling=true)  #Remove the un used volume
+	docker ps                                               #list all running containers
+	docker ps -a                                            #list all containers
+
+	docker images                                           #list all docker image
+	docker rmi <image id>                                   #remove image
+
+	docker volume ls                                        #list volume bind to docker
+	docker volume ls -qf dangling=true                      #dangling or unused volume bind
+	docker volume rm $(docker volume ls -qf dangling=true)  #remove the un used volume
