@@ -105,29 +105,37 @@ Litrature Around the world::
 
          +--------------+-------------------------------+--------------------------+-------------+------------+
          | Country      |        Name                   | Writer                   | Date        | Language   |
-         +==============+===============================+==========================+=============+=============
-         | India        |    Panchtantra                | column 3                 |             |            |
+         +==============+===============================+==========================+=============+============+
+         | India        |    Panchtantra                | column 3                 | 200 BCE     |  Sanskrit  |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Persia       |    Kalilag-o Demnag           |                          |             |            |
+         | Persia       |    Kalilag-o Demnag           |                          | 550 CE      |  Pahlavi   |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Syria        |    Kalile va Demne            | - Cells                  |             |            |
+         | Syria        |    Kalile va Demne            | - Cells                  | 600  CE     |  Aramic    |
          +--------------+ ------------------------------+--------------------------+-------------+------------+
-         | Arab         |    Kalīlah wa Dimnah          | - blocks.                |             |            |
+         | Arab         |    Kalīlah wa Dimnah          | - blocks.                |  750 CE     |  Arabic    |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Greece       | Stephanites and Ichnelates    | Simeon Seth              |             |            |
-         |              |                               |(Jewish Byzantine doctor) |             |            |
-         |              |                               | Abu'l Ma'ali Nasr        |             |            |
-         |              |                               | Allah Munshi             |             |            |
+         | Greece       | Stephanites and Ichnelates    | Simeon Seth              |             | Greek      |
+         |              |                               |(Jewish Byzantine doctor) |  1080       |            |
+         | Greece       |                               | Abu'l Ma'ali Nasr        |  1121       | Modern     |
+         |              |                               | Allah Munshi             |             | Persian    |
          |              |                               |                          |             |            |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Europe       |    Kalilag-o Demnag           |                          |             |            |
+         | Europe       |    Kalilag-o Demnag           |                          |  12CE       | Hebrew     |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Spain,       |                               |  King Alfonso            |             |            |
+         | Spain,       |                               |  King Alfonso            |  1252       | Spanish    |
          | Portguese    |    Calila e Dimna             |  X(collebrative)         |             |            |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Roman       |    Directorium humanae vitae   |                          |             |            |
+         | Roman        |    Directorium humanae vitae  |    John of Capua         |  1480       | Latin      |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Germany      |    Das Buch der Beispiele     |                          |             |            |
+         | Germany      |    Das Buch der Beispiele     |  Anton von Pforr         |  1483       | German     |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Italy        |    Das Buch der Beispiele     |  Anton von Pforr         |  1552       | Italian    |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | England      |  The Morall Philosophie of    |  Sir Thomas North        |             | English    |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | England      |    The Fables of Bidpai       |  La Fontaine             |  1679       | English    |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | England      |    The Fables of Bidpai       | Joseph Jacob             |   1888      | English    |
          +--------------+-------------------------------+--------------------------+-------------+------------+
 
 
