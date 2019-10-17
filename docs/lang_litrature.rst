@@ -99,53 +99,32 @@ Litrature Around the world::
         Khargos and kachua
         Bagula and kekra.
 
-        Country	  Name	             Writer	                 Date	        Language
-        India	  Panchtantra	     Vishnu Sharma	         200 BCE	    Sanskrit
-        Persia	  Kalilag-o Demnag	 Burzoe	                 550 CE	        Pahlavi ((Middle Persian language)
-        Syria	  Kalile va Demne	 Burzoe	                 6th	        Aramic
-        Arab	  Kalīlah wa Dimnah	 Abdullah Ibn al-Muqaffa 750 CE	        Arabic
-        Greece	  Stephanites
-                  and Ichnelates	Simeon Seth(Jewish Byzantine doctor)	1080	Greek
-        		   Abu'l Ma'ali Nasr Allah Munshi	1121	'modern' Persian
-        Europe	  Kalila wa-Dimna	  Rabbi Joel	          12CE	         Hebrew 
-        Spain,
-        Portguese Calila e Dimna	 King Alfonso X(collebrative)	1252 	Spanish(from arabic to spanish)
-        Roman	Directorium humanae vitae	 John of Capua	  1480	Latin(from hebrew to latin)
-        			Prited in 1480
-        Germany	Das Buch der Beispiele	 Anton von Pforr	  1483 Printed by Gutenberg's press after the Bible )	German
-
-        Italy		Anton Francesco    Doni	                  1552	         Italian(latin to italian) 
-        England	    The Morall Philosophie of Doni	Sir Thomas North	1570	English
-        England	The Fables of Bidpai	La Fontaine	1679	English
-        England	The Fables of Bidpai	Joseph Jacobs	1888	English
-        US	Hertel 1908, Hertel 1912, Hertel 1915	Theodor Benfey	1908-1915	English
-        		(scholar of sanskrit and german)
-        US	The Panchtantra	 Arthur W. Ryder	1925	English
-        		University of Chicago Press
-        India	The Panchtantra	republished in  Jaico Publishing House, Bombay	1956	English
-        India	The panchtantra	Rajan, Chandra(penguin)	1993	English
-        India	Sanskrit Panchatantra	Jain monk Purnabhadra	1199 CE(found by 	Sanskrit
-        			Hertel ) 1908
-
-        Indonesia    Tantri Kamandaka
-        Laos         Nandaka-prakarana
-        Thailand     Nang Tantrai
-        Hitopdesh
-
-        Syrian: Aramic
-        Jerusalam: Hibru
-
-        +------------+------------+-----------+
-        | Country    | Name       | Writer    |
-        +============+============+===========+
-        | body row 1 | column 2   | column 3  |
-        +------------+------------+-----------+
-        | body row 2 | Cells may span columns.|
-        +------------+------------+-----------+
-        | body row 3 | Cells may  | - Cells   |
-        +------------+ span rows. | - contain |
-        | body row 4 |            | - blocks. |
-        +------------+------------+-----------+
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Country      |        Name                   | Writer                   | Date        | Language   |
+         +==============+===============================+==========================+=============+=============
+         | India        |    Panchtantra                | column 3                 |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Persia       |    Kalilag-o Demnag           |                          |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Syria        |    Kalile va Demne            | - Cells                  |             |            |
+         +--------------+ ------------------------------+--------------------------+-------------+------------+
+         | Arab         |    Kalīlah wa Dimnah          | - blocks.                |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Greece       | Stephanites and Ichnelates    | Simeon Seth              |             |            |
+         |              |                               |(Jewish Byzantine doctor) |             |            |
+         |              |                               | Abu'l Ma'ali Nasr        |             |            |
+         |              |                               | Allah Munshi             |             |            |
+         |              |                               |                          |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Europe       |    Kalilag-o Demnag           |                          |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Spain,       |                               |  King Alfonso            |             |            |
+         | Portguese    |    Calila e Dimna             |  X(collebrative)         |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+          | Roman       |    Directorium humanae vitae  |                          |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
+         | Germany      |    Das Buch der Beispiele     |                          |             |            |
+         +--------------+-------------------------------+--------------------------+-------------+------------+
 
 
 
