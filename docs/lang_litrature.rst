@@ -1,8 +1,9 @@
 ======================
 Sanskrit
 ======================
-	Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java.
-	The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds
+	Sanskrit is a language of ancient India with a 3,500-year history.
+	It is the primary liturgical language of Hinduism and the predominant
+	language of most works of Hindu philosophy as well as some of the principal texts of Buddhism and Jainism
 
 Language of phonetics::
 
@@ -35,18 +36,21 @@ Language of phonetics::
         Mitragupta
         Mantragupta
         Vishruta ------ lips cut down with arrow.
-        Dandi never used oshthang(pawarg) phonetics after that incident since his lips cut down. labial consonants (p,ph,b,bh,m).
+        Dandi never used oshthang(pawarg) phonetics after that incident since his lips cut down.
+        labial consonants (p,ph,b,bh,m).
 
-Language Of Common people:
+Language Of Common people::
 
-		Mattur (or Mathur) is a village in Shimoga district near the city of Shivamogga in Karnataka state,
-		India, known for the usage of Sanskrit for day-to-day communication, although the general language of the state is Kannada.
-		Sanskrit is the main language of a majority of the 5,000 residents of this village situated around 8 km from Shimoga
+	    Mattur (or Mathur) is a village in Shimoga district near the city of Shivamogga in Karnataka state,
+        India, known for the usage of Sanskrit for day-to-day communication, although the general language
+        of the state is Kannada.Sanskrit is the main language of a majority of the 5,000 residents of this
+        village situated around 8 km from Shimoga.
 
-		Historical Evidance:
+        Historical Evidance:
 
-		Raja bhoj and lakarhara:
-        kimte bharam badhati. (badh is parasmai padi(badhati badhata,badhanti) work not with aatmane padi(badhati badhte,badhanti)
+        Raja bhoj and lakarhara:
+        kimte bharam badhati. (badh is parasmai padi(badhati badhata,badhanti) work not with aatmane padi
+        (badhati badhte,badhanti).
 
 
 Language Of personality::
@@ -121,7 +125,7 @@ Litrature Around the world::
          | Spain,       |                               |  King Alfonso            |             |            |
          | Portguese    |    Calila e Dimna             |  X(collebrative)         |             |            |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-          | Roman       |    Directorium humanae vitae  |                          |             |            |
+         | Roman       |    Directorium humanae vitae   |                          |             |            |
          +--------------+-------------------------------+--------------------------+-------------+------------+
          | Germany      |    Das Buch der Beispiele     |                          |             |            |
          +--------------+-------------------------------+--------------------------+-------------+------------+
