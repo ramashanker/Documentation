@@ -106,13 +106,13 @@ Litrature Around the world::
          +--------------+-------------------------------+--------------------------+-------------+------------+
          | Country      |        Name                   | Writer                   | Date        | Language   |
          +==============+===============================+==========================+=============+============+
-         | India        |    Panchtantra                | column 3                 | 200 BCE     |  Sanskrit  |
+         | India        |    Panchtantra                | Vishnu Sharma            | 200 BCE     |  Sanskrit  |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Persia       |    Kalilag-o Demnag           |                          | 550 CE      |  Pahlavi   |
+         | Persia       |    Kalilag-o Demnag           |  Burzoe                  | 550 CE      |  Pahlavi   |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Syria        |    Kalile va Demne            | - Cells                  | 600  CE     |  Aramic    |
+         | Syria        |    Kalile va Demne            |  Burzoe                  | 600  CE     |  Aramic    |
          +--------------+ ------------------------------+--------------------------+-------------+------------+
-         | Arab         |    Kalīlah wa Dimnah          | - blocks.                |  750 CE     |  Arabic    |
+         | Arab         |    Kalīlah wa Dimnah          | Abdullah Ibn al-Muqaffa  |  750 CE     |  Arabic    |
          +--------------+-------------------------------+--------------------------+-------------+------------+
          | Greece       | Stephanites and Ichnelates    | Simeon Seth              |             | Greek      |
          |              |                               |(Jewish Byzantine doctor) |  1080       |            |
@@ -120,7 +120,7 @@ Litrature Around the world::
          |              |                               | Allah Munshi             |             | Persian    |
          |              |                               |                          |             |            |
          +--------------+-------------------------------+--------------------------+-------------+------------+
-         | Europe       |    Kalilag-o Demnag           |                          |  12CE       | Hebrew     |
+         | Europe       |    Kalilag-o Demnag           |   Rabbi Joel             |  12CE       | Hebrew     |
          +--------------+-------------------------------+--------------------------+-------------+------------+
          | Spain,       |                               |  King Alfonso            |  1252       | Spanish    |
          | Portguese    |    Calila e Dimna             |  X(collebrative)         |             |            |
