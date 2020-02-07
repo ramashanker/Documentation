@@ -169,7 +169,7 @@ Solution Q3::
 
 
 
-.. image:: images/DataScience/part1_q3_1.png
+.. image:: ../images/DataScience/part1_q3_1.png
 
 
 
@@ -189,7 +189,7 @@ More Informative ::
 
 
 
-.. image:: images/DataScience/part1_q3_2.png
+.. image:: ../images/DataScience/part1_q3_2.png
 
 
 4)Is real estate more expensive in London? Plot histograms for the two subsets of properties inside and outside London, respectively.
@@ -219,7 +219,7 @@ Price Inside and Outside London::
 
 
 
-.. image:: images/DataScience/part1_q4_1.png
+.. image:: ../images/DataScience/part1_q4_1.png
 
 
 
@@ -246,7 +246,7 @@ Price Inside and Outside London::
 
 
 
-.. image:: images/DataScience/part1_q4_2.png
+.. image:: ../images/DataScience/part1_q4_2.png
 
 
 Optional task. Make a plot that shows the average price per year.
