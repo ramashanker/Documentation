@@ -23,9 +23,6 @@ NumPy random documentation (Links to an external site.).
 
 Part 1: Real estate prices
 HerePreview the document is a CSV (comma-separated values) file listing real estate sales in England between 1995 and 2016. (Actually, to make things a bit faster it's only a subset.)
-4)Is real estate more expensive in London? Plot histograms for the two subsets of properties inside and outside London, respectively. For practical purposes, we can define "inside London" to mean that the string in the 14th column (Python indexing column 13) includes the string LONDON.
- Optional task. Make a plot that shows the average price per year.
-
 
 1)Load the CSV file into Python. Use the Pandas function read_csv or use one of the techniques you learned in the course Introduction to Data Science.
 
@@ -170,7 +167,10 @@ Solution Q3::
     data.plot(kind='hist', ax=ax1);
     plt.xlabel('Price')
 
+
 .. image:: images/DataScience/part1_q3_1.png
+
+
 
 More Informative ::
 
@@ -187,6 +187,11 @@ More Informative ::
     plt.ylabel('Frequency')
 
 .. image:: images/DataScience/part1_q3_2.png
+
+
+
+4)Is real estate more expensive in London? Plot histograms for the two subsets of properties inside and outside London, respectively. For practical purposes, we can define "inside London" to mean that the string in the 14th column (Python indexing column 13) includes the string LONDON.
+ Optional task. Make a plot that shows the average price per year.
 
 Price Inside and Outside London::
 
@@ -209,8 +214,9 @@ Price Inside and Outside London::
     plt.xlabel('Price')
     plt.ylabel('Frequency')
 
-
 .. image:: images/DataScience/part1_q3_3.png
+
+
 
 99% Data Graph::
 
@@ -234,3 +240,5 @@ Price Inside and Outside London::
     plt.ylabel('Frequency')
 
 .. image:: images/DataScience/part1_q3_4.png
+
+
