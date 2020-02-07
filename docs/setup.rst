@@ -1,5 +1,5 @@
 ============
-setup mackbook
+setup macbook
 ============
 
 Install Home Brew::
