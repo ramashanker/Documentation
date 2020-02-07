@@ -2,4 +2,4 @@
 DataScience
 ============
 
-:ref:`data_science_ML/Assignment1`
+:doc:`data_science_ML/Assignment1`
