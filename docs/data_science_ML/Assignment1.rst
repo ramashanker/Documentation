@@ -169,7 +169,7 @@ Solution Q3::
 
 
 
-.. image:: images/DataScience/assignment1/part1_q3_1.png
+.. image:: ../images/DataScience/assignment1/part1_q3_1.png
 
 
 
@@ -372,3 +372,155 @@ Solution::
 
 
 .. image:: ../images/DataScience/assignment1/part2_q4_1.png
+
+
+
+
+Part 3: Simulating probabilistic models
+
+Here we simulate a few probabilistic models to investigate certain situations and the corresponding random variable distributions.
+When you are done feel free to change the various parameters to see how they affect the results.
+
+Please note.
+When you have implemented the code for these three scenarios, please reflect about how well you think the models correspond to the real world.
+What are the simplifying assumptions? Please discuss in your report.
+
+Question A::
+
+    (a) Modeling a student at an exam
+    Let's make a model of a student that answers questions in an exam. The exam consists of a fixed set of questions, and a student answers
+    each question correctly or incorrectly with some fixed probability. We will now implement this model in a step-by-step fashion.
+
+    Answering a single question
+
+    Write a Python function that simulates that the student answers a single question either correctly or incorrectly.
+    The function should return a Boolean value (that is, True or False) that says whether the question was answered correctly.
+    You can assume that the probability of a correct answer is a given parameter p_success.
+
+    def success(p_success):
+    ... YOUR CODE HERE ...
+
+    Run this function a few times and check that it seems to work correctly.
+    Note: Formally, we say that this function simulates a random variable with a Bernoulli distribution.
+    The metaphor typically used is that of a coin toss with an unfair coin.
+
+    Again, run the function a few times and check that it seems to work as it should.
+
+    Investigating the distribution
+
+    Write some code to call exam_score several times, and collect the result of all the calls in a simple Python list, NumPy array, or Pandas Series.
+
+    Let the value of p_correct be 0.8 and n_instances be 20. Run exam_score 10,000 times and collect the results. Then plot a histogram of the results.
+
+    Note: This type of scenario corresponds to the binomial distribution which we will discuss formally in the next lecture.
+    The typical explanation is that we toss an unfair coin a given number times and count the number of times the heads side came up.
+
+Solution::
+
+    The Bernoulli distribution is the discrete probability distribution of a random variable
+    which takes a binary, boolean output: 1 with probability p, and 0 with probability (1-p).
+    Here similarly the boolean outcome of question correct probality is 0.8 and incorrect probabilty is 0.2.
+
+    def success(p_success):
+        issuccess = np.random.random() < p_success
+        return issuccess
+
+    Binomial distribution describes the number of successes k achieved in n trials, where probability of success is p
+    Similarly here the number of correct answer achived in 20 trials with probability 0.8
+
+
+    def exam_score(p_correct, n_instances):
+        score = 0
+        for i in range(n_instances):
+            if (success(p_correct)):
+                score = score + 1
+        return score
+
+    def data_set():
+        dataset = []
+        for i in range(10000):
+            dataset.append(exam_score(0.8, 20))
+        return dataset
+
+
+    data = data_set()
+    print(data[:10])
+    plt.figure(figsize=(12, 4));
+
+    sns.distplot(data, bins=100, kde=False);
+
+.. image:: ../images/DataScience/assignment1/part3_qa_1.png
+
+
+Solution2::
+
+    Second method to solve this problem with choice.The result will be same.
+
+    def exam_score():
+    options = [1, 0]
+    options_probs = [0.8, 0.2]
+    total_score = sum(np.random.choice(options, size=20, p=options_probs))
+    return total_score
+
+    plt.figure(figsize=(12, 4));
+    samples = [exam_score() for _ in range(10000)]
+    print(samples[:10])
+    sns.distplot(samples, bins=100, kde=False);
+
+.. image:: ../images/DataScience/assignment1/part3_qa_2.png
+
+Question B::
+
+    (b) The persistent student
+    We will now simulate a scenario where a student takes an exam repeatedly, until passing.
+
+    If a student does not pass an exam, the University of Gothenburg allows the student to go to an unlimited number of re-sit exams.
+    Let's assume that students never give up, so that they will go to the exam again and again until they finally pass. Write a function that simulates a student going to exams until passing, and returns the number of attempts the student needed before passing. You can assume that the probability of passing a single exam is a constant p_pass. If you want, you can reuse your function success from the previous task: in this case, this would mean a passed exam, not just a correctly answered question.
+
+    def number_of_attempts(p_pass):
+         ... YOUR CODE HERE ...
+
+    Investigating the distribution
+
+    Simulate this model multiple times, as in (a). For instance, let p_pass be 0.4. Plot the result using a histogram.
+
+    Note: This type of scenario corresponds to the geometric distribution.
+
+Solution::
+
+    The Bernoulli distribution is the discrete probability distribution of a random variable
+    which takes a binary, boolean output: 1 with probability p, and 0 with probability (1-p).
+    Here the below solution is mixture of binomial distribution and geometrical distribution.
+    Geometric distribution is a special case of negative binomial distribution,
+    where the experiment is stopped at first failure.
+    So while it is not exactly related to binomial distribution, it is related to negative binomial distribution.
+
+
+    def isfailed(p_pass):
+        failed = np.random.random() < p_pass
+        return failed
+
+
+    def number_of_attempts(p_pass):
+        attempt = 1;
+        fail = isfailed(p_pass)
+        while fail:
+            attempt = attempt + 1
+            fail = isfailed(p_pass)
+        return attempt
+
+
+    def data_set():
+        attemptset = []
+        for i in range(10000):
+            attemptset.append(number_of_attempts(0.4))
+        return attemptset
+
+    The number of student pass hiher at 1st attempt compare to the next attempt.It is geometrical distribution.
+    Student will attempt untill passed based on probability 0.4.
+
+    data = pd.DataFrame(data_set())
+
+    data.hist()
+
+.. image:: ../images/DataScience/assignment1/part3_qb_1.png
