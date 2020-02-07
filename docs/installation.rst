@@ -1,5 +1,5 @@
 ============
-Language
+Installation
 ============
 
 :doc:`installation/installation`
