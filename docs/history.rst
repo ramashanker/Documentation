@@ -10,9 +10,7 @@ Historical Fact
     Place: Fatehpur Sikri, Agra
     Height: 5.7 feet (
 
-.. image:: images/history/akbar.png
-    :width: 200px
-    :height: 100px
+.. image:: images/history/akbar.jpg
 
  Maharan Pratap::
 
@@ -22,6 +20,4 @@ Historical Fact
     Place: Chavand, Mewar
     Height: 7.5 feet(according to udaipur historical record)
 
-.. image:: images/history/MaharanaPratap.png
-    :width: 200px
-    :height: 100px
+.. image:: images/history/MaharanaPratap.jpg
