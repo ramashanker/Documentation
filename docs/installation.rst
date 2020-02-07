@@ -1,7 +1,6 @@
 ============
-Installation
+Language
 ============
 
-Install the package with pip::
-
-    $ pip install read-the-docs-template
+:doc:`installation/installation`
+:doc:`installation/setup`
