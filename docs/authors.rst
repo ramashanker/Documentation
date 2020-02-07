@@ -14,4 +14,4 @@ Test::
     :alt: alternate text
 
 
-.. image:: images/DataScience/part1_q3_1.png
+.. image:: images/DataScience/assignment1/part1_q3_1.png
