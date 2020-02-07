@@ -1,0 +1,231 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kafka &#8212; Read the Docs Template 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sanskrit" href="lang_litrature.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="lang_litrature.html" title="Sanskrit"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Read the Docs Template 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="kafka">
+<h1>Kafka<a class="headerlink" href="#kafka" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java.
+The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds</div></blockquote>
+<p>Kafka With Docker:</p>
+<p>Start with docker compose:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">version</span><span class="p">:</span> <span class="s1">&#39;3&#39;</span>
+<span class="n">services</span><span class="p">:</span>
+        <span class="n">landoop</span><span class="p">:</span>
+                <span class="n">image</span><span class="p">:</span> <span class="n">landoop</span><span class="o">/</span><span class="n">fast</span><span class="o">-</span><span class="n">data</span><span class="o">-</span><span class="n">dev</span><span class="p">:</span><span class="n">latest</span>
+                <span class="n">hostname</span><span class="p">:</span> <span class="n">kafka</span>
+                <span class="n">environment</span><span class="p">:</span>
+                        <span class="n">KAFKA_ADVERTISED_HOST_NAME</span><span class="p">:</span> <span class="s2">&quot;0.0.0.0&quot;</span>
+                        <span class="n">KAFKA_ADVERTISED_PORT</span><span class="p">:</span> <span class="s2">&quot;9092&quot;</span>
+                <span class="n">networks</span><span class="p">:</span>
+                        <span class="o">-</span> <span class="n">my</span><span class="o">-</span><span class="n">app</span>
+                <span class="n">ports</span><span class="p">:</span>
+                        <span class="o">-</span> <span class="s2">&quot;2181:2181&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;3030:3030&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;8081-8083:8081-8083&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;9092:9092&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;9581-9585:9581-9585&quot;</span>
+<span class="n">networks</span><span class="p">:</span>
+        <span class="n">my</span><span class="o">-</span><span class="n">app</span><span class="p">:</span>
+                <span class="n">driver</span><span class="p">:</span> <span class="n">bridge</span>
+</pre></div>
+</div>
+<p>Start with docker and enable SSL:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">d</span> <span class="o">--</span><span class="n">net</span><span class="o">=</span><span class="n">host</span> <span class="o">-</span><span class="n">e</span> <span class="n">ENABLE_SSL</span><span class="o">=</span><span class="mi">1</span> <span class="o">-</span><span class="n">e</span> <span class="n">SAMPLEDATA</span><span class="o">=</span><span class="mi">0</span> <span class="o">-</span><span class="n">e</span> <span class="n">KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND</span><span class="o">=</span><span class="n">true</span> <span class="o">-</span><span class="n">e</span> <span class="n">LENSES_KAFKA_BROKERS</span><span class="o">=</span><span class="n">SSL</span><span class="p">:</span><span class="o">//</span><span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="p">:</span><span class="mi">9093</span> <span class="o">-</span><span class="n">e</span> <span class="n">LENSES_KAFKA_SETTINGS_CONSUMER_SECURITY_PROTOCOL</span><span class="o">=</span><span class="n">SSL</span> <span class="o">-</span><span class="n">e</span> <span class="n">LENSES_KAFKA_SETTINGS_PRODUCER_SECURITY_PROTOCOL</span><span class="o">=</span><span class="n">SSL</span> <span class="o">-</span><span class="n">p</span> <span class="mi">2181</span><span class="p">:</span><span class="mi">2181</span> <span class="o">-</span><span class="n">p</span> <span class="mi">3030</span><span class="p">:</span><span class="mi">3030</span> <span class="o">-</span><span class="n">p</span> <span class="mi">9093</span><span class="p">:</span><span class="mi">9093</span> <span class="o">-</span><span class="n">p</span> <span class="mi">9092</span><span class="p">:</span><span class="mi">9092</span> <span class="o">-</span><span class="n">p</span> <span class="mi">8081</span><span class="p">:</span><span class="mi">8081</span> <span class="o">-</span><span class="n">p</span> <span class="mi">9581</span><span class="o">-</span><span class="mi">9585</span><span class="p">:</span><span class="mi">9581</span><span class="o">-</span><span class="mi">9581</span> <span class="n">landoop</span><span class="o">/</span><span class="n">fast</span><span class="o">-</span><span class="n">data</span><span class="o">-</span><span class="n">dev</span><span class="p">:</span><span class="n">latest</span>
+</pre></div>
+</div>
+<p>Start with docker compose:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">version</span><span class="p">:</span> <span class="s1">&#39;3&#39;</span>
+<span class="n">services</span><span class="p">:</span>
+        <span class="n">lenses</span><span class="o">-</span><span class="n">dev</span><span class="p">:</span>
+                <span class="n">image</span><span class="p">:</span> <span class="n">landoop</span><span class="o">/</span><span class="n">fast</span><span class="o">-</span><span class="n">data</span><span class="o">-</span><span class="n">dev</span><span class="p">:</span><span class="n">latest</span>
+                <span class="n">ports</span><span class="p">:</span>
+                        <span class="o">-</span> <span class="s2">&quot;2181:2181&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;3030:3030&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;9092:9092&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;9093:9093&quot;</span>
+                        <span class="o">-</span> <span class="s2">&quot;8081:8081&quot;</span>
+                <span class="n">environment</span><span class="p">:</span>
+                        <span class="o">-</span> <span class="n">SAMPLEDATA</span><span class="o">=</span><span class="mi">0</span>
+                        <span class="o">-</span> <span class="n">ENABLE_SSL</span><span class="o">=</span><span class="mi">1</span>
+                        <span class="o">-</span> <span class="n">KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND</span><span class="o">=</span><span class="n">true</span>
+                        <span class="o">-</span> <span class="n">LENSES_KAFKA_BROKERS</span><span class="o">=</span><span class="n">SSL</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">9093</span>
+                        <span class="o">-</span> <span class="n">LENSES_KAFKA_SETTINGS_CONSUMER_SECURITY_PROTOCOL</span><span class="o">=</span><span class="n">SSL</span>
+                        <span class="o">-</span> <span class="n">LENSES_KAFKA_SETTINGS_PRODUCER_SECURITY_PROTOCOL</span><span class="o">=</span><span class="n">SSL</span>
+</pre></div>
+</div>
+<p>Steps To test kafka SSL:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>docker exec -it &lt;container_id&gt; bash                                 #access docker container
+root@fast-data-dev / $ wget localhost:3030/certs/truststore.jks     #download trust store certificate
+root@fast-data-dev / $ wget localhost:3030/certs/client.jks         #download client certificate
+</pre></div>
+</div>
+<p>Performance test for producer:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">kafka</span><span class="o">-</span><span class="n">producer</span><span class="o">-</span><span class="n">perf</span><span class="o">-</span><span class="n">test</span> <span class="o">--</span><span class="n">topic</span> <span class="n">tls_test</span> \
+ <span class="o">--</span><span class="n">throughput</span> <span class="mi">1</span> <span class="o">--</span><span class="n">record</span><span class="o">-</span><span class="n">size</span> <span class="mi">1</span> <span class="o">--</span><span class="n">num</span><span class="o">-</span><span class="n">records</span> <span class="mi">1</span> \
+<span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="n">props</span> <span class="n">bootstrap</span><span class="o">.</span><span class="n">servers</span><span class="o">=</span><span class="s2">&quot;localhost:9093&quot;</span> \
+  <span class="n">security</span><span class="o">.</span><span class="n">protocol</span><span class="o">=</span><span class="n">SSL</span> \
+  <span class="n">ssl</span><span class="o">.</span><span class="n">keystore</span><span class="o">.</span><span class="n">location</span><span class="o">=</span><span class="n">client</span><span class="o">.</span><span class="n">jks</span> <span class="n">ssl</span><span class="o">.</span><span class="n">keystore</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span> \
+ <span class="n">ssl</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span> <span class="n">ssl</span><span class="o">.</span><span class="n">truststore</span><span class="o">.</span><span class="n">location</span><span class="o">=</span><span class="n">truststore</span><span class="o">.</span><span class="n">jks</span> \
+ <span class="n">ssl</span><span class="o">.</span><span class="n">truststore</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span>
+</pre></div>
+</div>
+<p>Publish message to the kafka topic With SSL:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kafka</span><span class="o">-</span><span class="n">console</span><span class="o">-</span><span class="n">producer</span> <span class="o">--</span><span class="n">broker</span><span class="o">-</span><span class="nb">list</span> <span class="n">localhost</span><span class="p">:</span><span class="mi">9093</span> <span class="o">--</span><span class="n">topic</span> <span class="n">test</span><span class="o">.</span><span class="n">topic</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">bootstrap</span><span class="o">.</span><span class="n">servers</span><span class="o">=</span><span class="n">localhost</span><span class="p">:</span><span class="mi">9093</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">security</span><span class="o">.</span><span class="n">protocol</span><span class="o">=</span><span class="n">SSL</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">keystore</span><span class="o">.</span><span class="n">location</span><span class="o">=</span><span class="n">client</span><span class="o">.</span><span class="n">jks</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">keystore</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">truststore</span><span class="o">.</span><span class="n">location</span><span class="o">=</span><span class="n">truststore</span><span class="o">.</span><span class="n">jks</span> \
+        <span class="o">--</span><span class="n">producer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">truststore</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span>
+</pre></div>
+</div>
+<p>Consume Message from kafka topic with SSL:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kafka</span><span class="o">-</span><span class="n">console</span><span class="o">-</span><span class="n">consumer</span> <span class="o">--</span><span class="n">bootstrap</span><span class="o">-</span><span class="n">server</span> <span class="n">localhost</span><span class="p">:</span><span class="mi">9093</span> <span class="o">--</span><span class="n">topic</span> <span class="n">test</span><span class="o">.</span><span class="n">topic</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">bootstrap</span><span class="o">.</span><span class="n">servers</span><span class="o">=</span><span class="n">localhost</span><span class="p">:</span><span class="mi">9093</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">security</span><span class="o">.</span><span class="n">protocol</span><span class="o">=</span><span class="n">SSL</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">keystore</span><span class="o">.</span><span class="n">location</span><span class="o">=</span><span class="n">client</span><span class="o">.</span><span class="n">jks</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">keystore</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">key</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">truststore</span><span class="o">.</span><span class="n">location</span><span class="o">=</span><span class="n">truststore</span><span class="o">.</span><span class="n">jks</span> \
+<span class="o">--</span><span class="n">consumer</span><span class="o">-</span><span class="nb">property</span> <span class="n">ssl</span><span class="o">.</span><span class="n">truststore</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">fastdata</span>
+</pre></div>
+</div>
+<p>Provide SSL configuration to springboot yml file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">server</span><span class="p">:</span>
+        <span class="n">port</span><span class="p">:</span> <span class="mi">9095</span>
+<span class="n">spring</span><span class="p">:</span>
+        <span class="n">application</span><span class="p">:</span>
+                <span class="n">name</span><span class="p">:</span> <span class="n">kafka</span><span class="o">-</span><span class="n">app</span>
+        <span class="n">kafka</span><span class="p">:</span>
+                <span class="n">topic</span><span class="p">:</span> <span class="n">test</span><span class="o">.</span><span class="n">topic</span>
+                <span class="n">bootstrap</span><span class="o">-</span><span class="n">servers</span><span class="p">:</span> <span class="n">localhost</span><span class="p">:</span><span class="mi">9093</span>
+                <span class="n">ssl</span><span class="p">:</span>
+                        <span class="n">truststore</span><span class="o">-</span><span class="n">location</span><span class="p">:</span> <span class="n">file</span><span class="p">:</span><span class="o">/</span><span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">security</span><span class="o">/</span><span class="n">truststore</span><span class="o">.</span><span class="n">jks</span>
+                        <span class="n">truststore</span><span class="o">-</span><span class="n">password</span><span class="p">:</span> <span class="n">fastdata</span>
+                        <span class="n">trust</span><span class="o">-</span><span class="n">store</span><span class="o">-</span><span class="nb">type</span><span class="p">:</span> <span class="n">PKCS12</span>
+                        <span class="n">keystore</span><span class="o">-</span><span class="n">location</span><span class="p">:</span> <span class="n">file</span><span class="p">:</span><span class="o">/</span><span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">security</span><span class="o">/</span><span class="n">client</span><span class="o">.</span><span class="n">jks</span>
+                        <span class="n">keystore</span><span class="o">-</span><span class="n">password</span><span class="p">:</span> <span class="n">fastdata</span>
+                        <span class="n">key</span><span class="o">-</span><span class="n">store</span><span class="o">-</span><span class="nb">type</span><span class="p">:</span> <span class="n">PKCS12</span>
+                        <span class="n">key</span><span class="o">-</span><span class="n">password</span><span class="p">:</span> <span class="n">fastdata</span>
+                <span class="n">properties</span><span class="p">:</span>
+                        <span class="n">security</span><span class="p">:</span>
+                                <span class="n">protocol</span><span class="p">:</span> <span class="n">SSL</span>
+                <span class="n">producer</span><span class="p">:</span>
+                        <span class="n">key</span><span class="o">-</span><span class="n">serializer</span><span class="p">:</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">kafka</span><span class="o">.</span><span class="n">common</span><span class="o">.</span><span class="n">serialization</span><span class="o">.</span><span class="n">StringSerializer</span>
+                        <span class="n">value</span><span class="o">-</span><span class="n">serializer</span><span class="p">:</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">kafka</span><span class="o">.</span><span class="n">common</span><span class="o">.</span><span class="n">serialization</span><span class="o">.</span><span class="n">StringSerializer</span>
+</pre></div>
+</div>
+<p>Property file SSL configuration:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">props</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">CommonClientConfigs</span><span class="o">.</span><span class="n">SECURITY_PROTOCOL_CONFIG</span><span class="p">,</span> <span class="s2">&quot;SSL&quot;</span><span class="p">);</span>
+<span class="n">props</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">SslConfigs</span><span class="o">.</span><span class="n">SSL_TRUSTSTORE_LOCATION_CONFIG</span><span class="p">,</span> <span class="s2">&quot;C:/security/truststore.jks&quot;</span><span class="p">);</span>
+<span class="n">props</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">SslConfigs</span><span class="o">.</span><span class="n">SSL_TRUSTSTORE_PASSWORD_CONFIG</span><span class="p">,</span>  <span class="s2">&quot;fastdata&quot;</span><span class="p">);</span>
+<span class="n">props</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">SslConfigs</span><span class="o">.</span><span class="n">SSL_KEYSTORE_LOCATION_CONFIG</span><span class="p">,</span> <span class="s2">&quot;C:/security/client.jks&quot;</span><span class="p">);</span>
+<span class="n">props</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">SslConfigs</span><span class="o">.</span><span class="n">SSL_KEYSTORE_PASSWORD_CONFIG</span><span class="p">,</span> <span class="s2">&quot;fastdata&quot;</span><span class="p">);</span>
+<span class="n">props</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">SslConfigs</span><span class="o">.</span><span class="n">SSL_KEY_PASSWORD_CONFIG</span><span class="p">,</span> <span class="s2">&quot;fastdata&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Describe JKS file or SSL:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s2">&quot;certificate base64 value&quot;</span><span class="o">|</span> <span class="n">base64</span> <span class="o">-</span><span class="n">d</span><span class="o">&gt;</span> <span class="n">trust</span><span class="o">.</span><span class="n">jks</span>
+<span class="n">echo</span> <span class="s2">&quot;&quot;</span><span class="o">|</span> <span class="n">base64</span> <span class="o">-</span><span class="n">d</span><span class="o">&gt;</span> <span class="n">trust</span><span class="o">.</span><span class="n">jks</span>
+</pre></div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="previous chapter">Installation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="lang_litrature.html"
+                        title="next chapter">Sanskrit</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/kafka.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="lang_litrature.html" title="Sanskrit"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Read the Docs Template 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Read the Docs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>
