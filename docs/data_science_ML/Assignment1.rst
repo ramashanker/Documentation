@@ -475,7 +475,11 @@ Question B::
     We will now simulate a scenario where a student takes an exam repeatedly, until passing.
 
     If a student does not pass an exam, the University of Gothenburg allows the student to go to an unlimited number of re-sit exams.
-    Let's assume that students never give up, so that they will go to the exam again and again until they finally pass. Write a function that simulates a student going to exams until passing, and returns the number of attempts the student needed before passing. You can assume that the probability of passing a single exam is a constant p_pass. If you want, you can reuse your function success from the previous task: in this case, this would mean a passed exam, not just a correctly answered question.
+    Let's assume that students never give up, so that they will go to the exam again and again until they finally pass.
+    Write a function that simulates a student going to exams until passing, and returns the number of attempts the student needed before passing.
+    You can assume that the probability of passing a single exam is a constant p_pass.
+    If you want, you can reuse your function success from the previous task: in this case,
+    this would mean a passed exam, not just a correctly answered question.
 
     def number_of_attempts(p_pass):
          ... YOUR CODE HERE ...
@@ -493,7 +497,8 @@ Solution::
     Here the below solution is mixture of binomial distribution and geometrical distribution.
     Geometric distribution is a special case of negative binomial distribution,
     where the experiment is stopped at first failure.
-    So while it is not exactly related to binomial distribution, it is related to negative binomial distribution.
+    So while it is not exactly related to binomial distribution,
+    it is related to negative binomial distribution.
 
 
     def isfailed(p_pass):
@@ -516,7 +521,8 @@ Solution::
             attemptset.append(number_of_attempts(0.4))
         return attemptset
 
-    The number of student pass hiher at 1st attempt compare to the next attempt.It is geometrical distribution.
+    The number of student pass hiher at 1st attempt compare to the next attempt.
+    It is geometrical distribution.
     Student will attempt untill passed based on probability 0.4.
 
     data = pd.DataFrame(data_set())
@@ -528,7 +534,7 @@ Solution::
 
 Question C::
 
-    (c) An unusual village The inhabitants of Normlösa, a small village in the fertile plains of eastern Sweden,
+    (c)An unusual village The inhabitants of Normlösa, a small village in the fertile plains of eastern Sweden,
     are infamous not only for their unscrupulous behavior but also because the males in the village are exceptionally short and stocky,
     while the female villagers tend to be tall and lean. Geneticists from nearby Linköping University have so far failed to come up
     with a credible explanation of this remarkable tendency.
@@ -539,8 +545,10 @@ Question C::
         then draw random numbers from a Gaussian distribution (normal distribution) for the height and weight of the person;
         for this, you might use the NumPy function np.random.normal(loc, scale), where loc is the mean and scale the standard deviation.
 
-            for males, the mean height is 140 and the height standard deviation is 15; the mean weight is 90 and the weight standard deviation is 10;
-            for females, the mean height is 195 and the height standard deviation is 10; the mean weight is 60 and the weight standard deviation is 5.
+          for males, the mean height is 140 and the height standard deviation is 15;
+          the mean weight is 90 and the weight standard deviation is 10;
+          for females, the mean height is 195 and the height standard deviation is 10;
+          the mean weight is 60 and the weight standard deviation is 5.
 
         Generate a dataset consisting of height–weight pairs for 50 Normlösa inhabitants. Make a scatterplot of the height–weight data.
 
