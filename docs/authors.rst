@@ -12,3 +12,6 @@ Test::
     :align: center
     :height: 100px
     :alt: alternate text
+
+
+.. image:: images/DataScience/part1_q3_1.png
