@@ -13,7 +13,7 @@ How To  use this tool
  git commit -m "commit message"
  git push
 
-## go to your read the doc portal
+## go to your read the doc portal pull data from github and build
 https://readthedocs.org/profiles/ramashanker87/
 
 ## Build the latest version
