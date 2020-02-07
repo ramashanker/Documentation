@@ -168,6 +168,7 @@ Solution Q3::
     plt.xlabel('Price')
 
 
+
 .. image:: images/DataScience/part1_q3_1.png
 
 
@@ -185,6 +186,8 @@ More Informative ::
     plt.title('plot with 99 percentile');
     plt.xlabel('Price')
     plt.ylabel('Frequency')
+
+
 
 .. image:: images/DataScience/part1_q3_2.png
 
@@ -214,6 +217,8 @@ Price Inside and Outside London::
     plt.xlabel('Price')
     plt.ylabel('Frequency')
 
+
+
 .. image:: images/DataScience/part1_q4_1.png
 
 
@@ -238,6 +243,8 @@ Price Inside and Outside London::
     plt.title('price out of london with 99 percentile');
     plt.xlabel('Price')
     plt.ylabel('Frequency')
+
+
 
 .. image:: images/DataScience/part1_q4_2.png
 
