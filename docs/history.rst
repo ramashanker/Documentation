@@ -2,7 +2,7 @@
 Historical Fact
 ===============
 
- Akbar::
+Akbar::
 
     Born: 15 October 1542
     Place: Amarkot, Rajputana
@@ -10,11 +10,11 @@ Historical Fact
     Place: Fatehpur Sikri, Agra
     Height: 5.7 feet
 
+
 .. image:: images/history/akbar.jpg
 
 
-
- MaharanPratap::
+MaharanPratap::
 
     Born: 9 May 1540
     Place: Kumbhalgarh, Mewar
