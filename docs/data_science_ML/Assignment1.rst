@@ -189,9 +189,9 @@ More Informative ::
 .. image:: images/DataScience/part1_q3_2.png
 
 
+4)Is real estate more expensive in London? Plot histograms for the two subsets of properties inside and outside London, respectively.
+ For practical purposes, we can define "inside London" to mean that the string in the 14th column (Python indexing column 13) includes the string LONDON.
 
-4)Is real estate more expensive in London? Plot histograms for the two subsets of properties inside and outside London, respectively. For practical purposes, we can define "inside London" to mean that the string in the 14th column (Python indexing column 13) includes the string LONDON.
- Optional task. Make a plot that shows the average price per year.
 
 Price Inside and Outside London::
 
@@ -214,7 +214,7 @@ Price Inside and Outside London::
     plt.xlabel('Price')
     plt.ylabel('Frequency')
 
-.. image:: images/DataScience/part1_q3_3.png
+.. image:: images/DataScience/part1_q4_1.png
 
 
 
@@ -239,6 +239,7 @@ Price Inside and Outside London::
     plt.xlabel('Price')
     plt.ylabel('Frequency')
 
-.. image:: images/DataScience/part1_q3_4.png
+.. image:: images/DataScience/part1_q4_2.png
 
 
+Optional task. Make a plot that shows the average price per year.
