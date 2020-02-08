@@ -11,7 +11,7 @@ Akbar::
     Height: 5.7 feet
 
 
-.. image:: images/history/akbar.jpg
+.. image:: ../images/history/akbar.jpg
 
 
 MaharanPratap::
@@ -22,4 +22,4 @@ MaharanPratap::
     Place: Chavand, Mewar
     Height: 7.5 feet(according to udaipur historical record)
 
-.. image:: images/history/MaharanaPratap.jpg
+.. image:: ../images/history/MaharanaPratap.jpg
