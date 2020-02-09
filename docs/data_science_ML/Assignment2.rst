@@ -86,7 +86,7 @@ Solution::
     print(freqs3)
     print(freqs3['top'])
 
-OUT::
+    OUT:
 
     [['the', 'first', 'document'], ['the', 'second', 'document']]
     6
@@ -205,7 +205,7 @@ OUT::
         9531
         2383
 
-    Class probalility(positive and negative class probability)
+    Class probability(positive and negative class probability)
 
 
     Estimating parameters for the Naive Bayes classifier
