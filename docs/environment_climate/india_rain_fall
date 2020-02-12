@@ -21,7 +21,7 @@ Rain fall Data Set ::
     result=pd.concat([data.head(4), data.tail(4)])
     result
 
-.. image:: ../images/DataScience/environment_climate/dataset.png
+.. image:: ../images/environment_climate/india_rain_fall/dataset.png
 
 Scatter Plot Data::
 
@@ -32,7 +32,7 @@ Scatter Plot Data::
         plt.show()
     scatter_plot(data['YEAR'],data['ANNUAL'])
 
-.. image:: ../images/DataScience/environment_climate/scatterplot.png
+.. image:: ../images/environment_climate/india_rain_fall/scatterplot.png
 
 
 
@@ -46,7 +46,7 @@ Plotting linear and cluster to verify Annual rain fall::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/annual.png
+.. image:: ../images/environment_climate/india_rain_fall/annual.png
 
 
 Rain Fall June::
@@ -58,7 +58,7 @@ Rain Fall June::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/june.png
+.. image:: ../images/environment_climate/india_rain_fall/june.png
 
 
 Rain Fall July::
@@ -70,7 +70,7 @@ Rain Fall July::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/july.png
+.. image:: ../images/environment_climate/india_rain_fall/july.png
 
 
 Rain Fall August::
@@ -82,7 +82,7 @@ Rain Fall August::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/august.png
+.. image:: ../images/environment_climate/india_rain_fall/august.png
 
 
 Rain Fall September::
@@ -94,7 +94,7 @@ Rain Fall September::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/september.png
+.. image:: ../images/environment_climate/india_rain_fall/september.png
 
 
 Rain Fall October::
@@ -106,7 +106,7 @@ Rain Fall October::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/october.png
+.. image:: ../images/environment_climate/india_rain_fall/october.png
 
 
 Rain Fall November::
@@ -118,7 +118,7 @@ Rain Fall November::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/november.png
+.. image:: ../images/environment_climate/india_rain_fall/november.png
 
 
 Rain Fall December::
@@ -130,7 +130,7 @@ Rain Fall December::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/december.png
+.. image:: ../images/environment_climate/india_rain_fall/december.png
 
 
 Rain Fall January::
@@ -142,7 +142,7 @@ Rain Fall January::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/january.png
+.. image:: ../images/environment_climate/india_rain_fall/january.png
 
 
 
@@ -155,7 +155,7 @@ Rain Fall February::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/february.png
+.. image:: ../images/environment_climate/india_rain_fall/february.png
 
 
 Rain Fall March::
@@ -167,7 +167,7 @@ Rain Fall March::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/march.png
+.. image:: ../images/environment_climate/india_rain_fall/march.png
 
 
 Rain Fall April::
@@ -179,4 +179,4 @@ Rain Fall April::
     plt.figure(figsize=(15,6))
     sns.kdeplot(x, y, shade=True);
 
-.. image:: ../images/DataScience/environment_climate/april.png
+.. image:: ../images/environment_climate/india_rain_fall/april.png
