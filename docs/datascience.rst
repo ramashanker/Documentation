@@ -10,5 +10,4 @@ DataScience
 
 :doc:`data_science_ML/Assignment4`
 
-:doc:`environment_climate/Rain_Fall_India`
 
