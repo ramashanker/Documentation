@@ -9,3 +9,5 @@ DataScience
 :doc:`data_science_ML/Assignment3`
 
 :doc:`data_science_ML/Assignment4`
+
+:doc:`environment_climate/india_rain_fall`
