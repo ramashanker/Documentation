@@ -13,8 +13,6 @@ Contents:
    :glob:
 
    *
-   data_science_ML/Assignment1
-
 
 Indices and tables
 ==================
