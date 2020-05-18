@@ -25,7 +25,9 @@ https://en.wikipedia.org/wiki/Eruca_vesicaria
     Vitamin A: the umbrella term for a group of fat-soluble retinoids. Vitamin A is a powerful antioxidant,
             which supports immune function, cell growth, night vision, and overall eye health. It also works to help maintain kidney, lung, and heart function.
 
+
 .. image:: ../images/agriculture/plants/Salads/Arugula.png
+
 
 Kale::
 Kale (/keɪl/), or leaf cabbage, belongs to a group of cabbage (Brassica oleracea) cultivars grown for their edible leaves, although some are used as ornamentals.
@@ -46,7 +48,9 @@ Kale (/keɪl/), or leaf cabbage, belongs to a group of cabbage (Brassica olerace
     It also contains 3% or more of the DV for vitamin B1 (thiamin), vitamin B2 (riboflavin), vitamin B3 (niacin), iron and phosphorus
     This is coming with a total of 33 calories, 6 grams of carbs (2 of which are fiber) and 3 grams of protein.
 
- .. image:: ../images/agriculture/plants/Salads/kale.jpg
+
+.. image:: ../images/agriculture/plants/Salads/kale.jpg
+
 
 Watercress::
 Watercress or yellowcress is an aquatic plant species with the botanical name Nasturtium officinale.
@@ -63,5 +67,6 @@ Watercress or yellowcress is an aquatic plant species with the botanical name Na
     Vitamin K: 106% of the RDI
     Calcium: 4% of the RDI
     Manganese: 4% of the RDI
+
 
 .. image:: ../images/agriculture/plants/Salads/watercress.jpg
