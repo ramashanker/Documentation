@@ -12,18 +12,19 @@ https://en.wikipedia.org/wiki/Eruca_vesicaria
     Health benefits:
     These include:
 
-    Calcium: which helps the blood to clot normally. It’s also necessary for bone health, tooth health,
-          muscle function, and nerve function.
+    Calcium:    which helps the blood to clot normally. It’s also necessary for bone health, tooth health,
+                muscle function, and nerve function.
     Potassium:  a mineral and an electrolyte that’s vital for heart and nerve function. It also helps the muscles contract normally.
-            Potassium helps to reduce the negative effects of sodium, and it may be beneficial for people with high blood pressure for this reason.
+                Potassium helps to reduce the negative effects of sodium, and it may be beneficial for people with high blood pressure for this reason.
     Folate, a B vitamin: It helps support the production of DNA and other genetic material. It’s particularly important for women who are pregnant
-          or planning to become pregnant. Folate deficiency in pregnant women may lead to spina bifida, a neural tube defect.
-    Vitamin C: a powerful antioxidant that helps support the immune system. Also known as ascorbic acid.
-           vitamin C is important for tissue health and the absorption of iron from food.
-    Vitamin K: which helps with blood coagulation. If you require a prescription blood thinner,
-            such as warfarin (Coumadin), discuss your vitamin K intake with your doctor prior to changing your eating habits.
-    Vitamin A: the umbrella term for a group of fat-soluble retinoids. Vitamin A is a powerful antioxidant,
-            which supports immune function, cell growth, night vision, and overall eye health. It also works to help maintain kidney, lung, and heart function.
+                 or planning to become pregnant. Folate deficiency in pregnant women may lead to spina bifida, a neural tube defect.
+    Vitamin C:  a powerful antioxidant that helps support the immune system. Also known as ascorbic acid.
+                vitamin C is important for tissue health and the absorption of iron from food.
+    Vitamin K:  which helps with blood coagulation. If you require a prescription blood thinner,
+                such as warfarin (Coumadin), discuss your vitamin K intake with your doctor prior to changing your eating habits.
+    Vitamin A:  the umbrella term for a group of fat-soluble retinoids. Vitamin A is a powerful antioxidant,
+                which supports immune function, cell growth, night vision, and overall eye health.
+                It also works to help maintain kidney, lung, and heart function.
 
 
 .. image:: ../images/agriculture/plants/Salads/Arugula.png
