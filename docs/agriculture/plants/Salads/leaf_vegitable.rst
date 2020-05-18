@@ -27,7 +27,7 @@ Arugula::
                 It also works to help maintain kidney, lung, and heart function.
 
 
-.. image:: ../images/agriculture/plants/Salads/Arugula.png
+.. image:: ../images/agriculture/plants/salads/arugula.jpg
 
 
 Kale::
