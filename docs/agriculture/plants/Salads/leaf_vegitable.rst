@@ -27,7 +27,7 @@ Arugula::
                 It also works to help maintain kidney, lung, and heart function.
 
 
-.. image:: ../images/agriculture/plants/salads/arugula.jpg
+.. image:: ../../../images/agriculture/plants/salads/arugula.jpg
 
 
 Kale::
@@ -51,7 +51,7 @@ Kale::
     This is coming with a total of 33 calories, 6 grams of carbs (2 of which are fiber) and 3 grams of protein.
 
 
-.. image:: ../images/agriculture/plants/Salads/kale.jpg
+.. image:: ../../../images/agriculture/plants/Salads/kale.jpg
 
 
 Watercress::
@@ -72,4 +72,4 @@ Watercress::
     Manganese: 4% of the RDI
 
 
-.. image:: ../images/agriculture/plants/Salads/watercress.jpg
+.. image:: ../../../images/agriculture/plants/Salads/watercress.jpg
