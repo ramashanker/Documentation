@@ -4,10 +4,10 @@ Leaf Vegitables
 
 Arugula::
 
-Arugula is known as Eruca vesicaria and Wild rocket.is an edible annual plant in the family Brassicaceae used as a leaf vegetable for its fresh, tart,
-bitter, and peppery flavor.
-In Eastern Saudi Arabia it is widely believed the plant has a lot of health benefits and recommended for newlywed couples.
-https://en.wikipedia.org/wiki/Eruca_vesicaria
+    Arugula is known as Eruca vesicaria and Wild rocket.is an edible annual plant in the family Brassicaceae used as a leaf vegetable for its fresh, tart,
+    bitter, and peppery flavor.
+    In Eastern Saudi Arabia it is widely believed the plant has a lot of health benefits and recommended for newlywed couples.
+    https://en.wikipedia.org/wiki/Eruca_vesicaria
 
     Health benefits:
     These include:
@@ -31,8 +31,9 @@ https://en.wikipedia.org/wiki/Eruca_vesicaria
 
 
 Kale::
-Kale (/keɪl/), or leaf cabbage, belongs to a group of cabbage (Brassica oleracea) cultivars grown for their edible leaves, although some are used as ornamentals.
- The ultimate origin is Latin caulis 'cabbage'.
+
+    Kale (/keɪl/), or leaf cabbage, belongs to a group of cabbage (Brassica oleracea) cultivars grown for their edible leaves, although some are used as ornamentals.
+    The ultimate origin is Latin caulis 'cabbage'.
 
     Health benefits:
     These include:
@@ -54,7 +55,8 @@ Kale (/keɪl/), or leaf cabbage, belongs to a group of cabbage (Brassica olerace
 
 
 Watercress::
-Watercress or yellowcress is an aquatic plant species with the botanical name Nasturtium officinale.
+
+    Watercress or yellowcress is an aquatic plant species with the botanical name Nasturtium officinale.
     Health benefits:
     These include:
     One cup (34 grams) of watercress contains the following (3):
