@@ -4,10 +4,10 @@ Leaf Vegitables
 
 Arugula::
 
-    Arugula is known as Eruca vesicaria and Wild rocket.is an edible annual plant in the family Brassicaceae used as a leaf vegetable for its fresh, tart,
-    bitter, and peppery flavor.
-    In Eastern Saudi Arabia it is widely believed the plant has a lot of health benefits and recommended for newlywed couples.
-    https://en.wikipedia.org/wiki/Eruca_vesicaria
+    Arugula is known as Eruca vesicaria and Wild rocket.is an edible annual plant in the
+    family Brassicaceae used as a leaf vegetable for its fresh, tart, bitter, and peppery flavor.
+    In Eastern Saudi Arabia it is widely believed the plant has a lot of health benefits and
+    recommended for newlywed couples.
 
     Health benefits:
     These include:
@@ -47,11 +47,12 @@ Kale::
     Copper: 10% of the DV
     Potassium: 9% of the DV
     Magnesium: 6% of the DV
-    It also contains 3% or more of the DV for vitamin B1 (thiamin), vitamin B2 (riboflavin), vitamin B3 (niacin), iron and phosphorus
+    It also contains 3% or more of the DV for vitamin B1 (thiamin), vitamin B2 (riboflavin),
+    vitamin B3 (niacin), iron and phosphorus
     This is coming with a total of 33 calories, 6 grams of carbs (2 of which are fiber) and 3 grams of protein.
 
 
-.. image:: ../../../images/agriculture/plants/Salads/kale.jpg
+.. image:: ../../../images/agriculture/plants/salads/kale.jpg
 
 
 Watercress::
@@ -72,4 +73,43 @@ Watercress::
     Manganese: 4% of the RDI
 
 
-.. image:: ../../../images/agriculture/plants/Salads/watercress.jpg
+.. image:: ../../../images/agriculture/plants/salads/watercress.jpg
+
+Spinach::
+
+    Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia.
+    It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae.
+    Its leaves are a common edible vegetable consumed either fresh
+    The nutrition facts for 3.5 ounces (100 grams) of raw spinach are (1Trusted Source):
+
+    Calories: 23
+    Water: 91%
+    Protein: 2.9 grams
+    Carbs: 3.6 grams
+    Sugar: 0.4 grams
+    Fiber: 2.2 grams
+    Fat: 0.4 grams
+.. image:: ../../../images/agriculture/plants/salads/spinach.jpg
+
+Valerianella locusta(Corn salad)::
+
+    Valerianella locusta is a small annual plant that is eaten as a leaf vegetable.
+    It has a characteristic nutty flavour, dark green colour, and soft texture,
+    and is popularly served as salad greens.[2] Common names include corn salad,
+    common cornsalad,lamb's lettuce, mâche , fetticus, feldsalat, nut lettuce, field salad.
+
+    Health Benefits:
+    56 grams of raw Mache contains
+    12 calories,
+    1.12 grams of protein,
+    0.22 grams of total fat and
+    2.02 grams of carbohydrate.
+
+    21.4 mg of Vitamin C,
+    1.22 mg of Iron,
+    0.153 mg of Vitamin B6,
+    0.201 mg of Manganese,
+    0.075 mg of Copper
+    257 mg of Potassium.
+
+.. image:: ../../../images/agriculture/plants/salads/corn-salads.jpg
