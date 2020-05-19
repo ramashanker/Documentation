@@ -4,7 +4,9 @@ Agriculture
 
 :doc:`agriculture/composting`
 
-:doc:`agriculture/plants/Herbals`
+:doc:`agriculture/plants/Herbals/leaf_herbals`
+
+:doc:`agriculture/plants/Herbals/tree_herbals`
 
 :doc:`agriculture/plants/Salads/leaf_vegitable`
 
