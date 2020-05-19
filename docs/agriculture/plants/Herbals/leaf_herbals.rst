@@ -62,7 +62,7 @@ Fennel(saumph)::
     originated as a medicinal elixir in Europe and became, by the late 19th century, a popular alcoholic drink in
     France and other countries.Fennel fruit is also used in the production of akvavit
 
-.. image:: ../../../images/agriculture/plants/Herbals/fennel.jpg
+.. image:: ../../../images/agriculture/plants/Herbals/fennel_seed.jpg
    :height: 400px
    :width:  400 px
    :scale: 100 %
