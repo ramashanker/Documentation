@@ -4,6 +4,10 @@ Leaf Herbals
 
 Tulsi(Holy basil)::
 
+    The three main morphotypes cultivated in India and Nepal are Ram tulsi (the most common type,
+    with broad bright green leaves that are slightly sweet leaves),
+    the less common purplish green-leaved (Krishna tulsi) and the common wild "vana tulsi".
+
 .. image:: ../../../images/agriculture/plants/Herbals/tulsi.jpg
 
 
@@ -23,22 +27,39 @@ Basil::
   Improves digestion
 
 
-Mint::
-
 .. image:: ../../../images/agriculture/plants/Herbals/basil.jpg
 
+Mint::
 
-Fenugreek::
+    Mentha (also known as mint, from Greek μίνθα míntha, Linear B mi-ta[3]) is a genus of plants in the family
+    Lamiaceae (mint family).The exact distinction between species is unclear; it is estimated that 13 to 24 species exist.
+    Hybridization occurs naturally where some species range overlap. Many hybrids and cultivars are known.
 
+.. image:: ../../../images/agriculture/plants/Herbals/mint.jpg
 
-Fennel::
+Thyme::
 
+    Thyme (/taɪm/) is any member of the genus Thymus of aromatic perennial evergreen herbs in the mint family Lamiaceae.
+    Thymes are relatives of the oregano genus Origanum. They have culinary, medicinal, and ornamental uses, and the
+    species most commonly cultivated and used for culinary purposes is Thymus vulgaris.
 
-Coriander::
+.. image:: ../../../images/agriculture/plants/Herbals/thyme.jpg
 
+Fenugreek(Methi)::
 
-Ginger::
+.. image:: ../../../images/agriculture/plants/Herbals/methi.jpg
 
+Fennel(saumph)::
+
+.. image:: ../../../images/agriculture/plants/Herbals/fennel.jpg
+
+Coriander(Dhania)::
+
+.. image:: ../../../images/agriculture/plants/Herbals/coriender.jpg
+
+Ginger(Adrakh)::
+
+.. image:: ../../../images/agriculture/plants/Herbals/ginger.jpg
 
 Echinacea::
 
@@ -58,4 +79,3 @@ Catnip::
     Dry leaves and burn to release aroma
     Apply essential oils or leaves topically
 
-.. image:: ../../../images/agriculture/plants/Herbals/mint.jpg
