@@ -4,7 +4,7 @@ Leaf Herbals
 
 Tulsi(Holy basil)::
 
-.. image:: ../images/agriculture/plants/Herbals/tulsi.jpg
+.. image:: ../../../images/agriculture/plants/Herbals/tulsi.jpg
 
 
 Basil::
@@ -25,7 +25,7 @@ Basil::
 
 Mint::
 
-.. image:: ../images/agriculture/plants/Herbals/basil.jpg
+.. image:: ../../../images/agriculture/plants/Herbals/basil.jpg
 
 
 Fenugreek::
@@ -58,4 +58,4 @@ Catnip::
     Dry leaves and burn to release aroma
     Apply essential oils or leaves topically
 
-.. image:: ../images/agriculture/plants/Herbals/mint.jpg
+.. image:: ../../../images/agriculture/plants/Herbals/mint.jpg
