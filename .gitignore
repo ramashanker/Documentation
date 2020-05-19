@@ -5,3 +5,6 @@ bin/
 tmp/
 *.tmp
 *.bak
+.idea
+_build/
+

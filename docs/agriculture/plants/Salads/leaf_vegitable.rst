@@ -1,6 +1,7 @@
 ==================
 Leaf Vegitables
 ==================
+All data collected from:https://www.ars.usda.gov/
 
 Arugula::
 
@@ -246,6 +247,30 @@ Sorrel::
     Remedies asthma & bronchitis.
 
 .. image:: ../../../images/agriculture/plants/salads/sorrel.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
+
+Butterhead lettuce::
+
+    Butterhead lettuce gets its name from its characteristically soft, buttery leaves.
+    It’s also known as cabbage lettuce due to its round shape.
+    The most popular types of butterhead are Bibb and Boston lettuce.
+
+    Nutrition Fact:
+    100 grams offering
+    Calories: 13
+    Protein: 1.5 grams
+    Fiber: 1 gram
+    Folate: 18% of the DV
+    Iron: 8% of the DV
+    Manganese: 8% of the DV
+    Potassium: 5% of the DV
+    Vitamin A: 18% of the DV
+    Vitamin C: 4% of the DV
+    Vitamin K: 85% of the DV
+
+.. image:: ../../../images/agriculture/plants/salads/butterhead.jpg
    :height: 400px
    :width:  400 px
    :scale: 100 %
