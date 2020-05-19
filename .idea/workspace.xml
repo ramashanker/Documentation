@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ef00d6d-5f39-4b21-b203-ab801cf165b8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c4fTfuGAYq1Xk8k43OQSWsi4iJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ef00d6d-5f39-4b21-b203-ab801cf165b8" name="Default Changelist" comment="" />
+      <created>1589792795820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589792795820</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Agriculture details added">
+      <created>1589808688488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589808688488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1589809724313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589809724313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated image">
+      <created>1589809978715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589809978715</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated image">
+      <created>1589810032599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589810032599</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated image">
+      <created>1589810596806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589810596806</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated CODE">
+      <created>1589810897128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589810897128</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agriculture details added" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="updated image" />
+    <MESSAGE value="updated CODE" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CODE" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2547" y="401" width="655" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589806079710">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2547" y="401" width="655" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1200@1920.0.1920.1200" timestamp="1589806079710" />
+    <state x="2419" y="147" width="912" height="904" key="CommitChangelistDialog2" timestamp="1589810897084">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2419" y="147" width="912" height="904" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1200@1920.0.1920.1200" timestamp="1589810897084" />
+    <state x="2475" y="335" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589810900012">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2475" y="335" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053/1920.0.1920.1200@1920.0.1920.1200" timestamp="1589810900012" />
+    <state x="2526" y="387" width="698" height="423" key="git4idea.merge.GitPullDialog" timestamp="1589792842122">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2526" y="387" width="698" height="423" key="git4idea.merge.GitPullDialog/67.27.1853.1053/1920.0.1920.1200@1920.0.1920.1200" timestamp="1589792842122" />
+  </component>
+</project>

@@ -28,7 +28,9 @@ Arugula::
 
 
 .. image:: ../../../images/agriculture/plants/salads/arugula.jpg
-
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Kale::
 
@@ -53,6 +55,9 @@ Kale::
 
 
 .. image:: ../../../images/agriculture/plants/salads/kale.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 
 Watercress::
@@ -74,6 +79,9 @@ Watercress::
 
 
 .. image:: ../../../images/agriculture/plants/salads/watercress.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Spinach::
 
@@ -90,6 +98,9 @@ Spinach::
     Fiber: 2.2 grams
     Fat: 0.4 grams
 .. image:: ../../../images/agriculture/plants/salads/spinach.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Valerianella locusta(Corn salad)::
 
@@ -113,3 +124,6 @@ Valerianella locusta(Corn salad)::
     257 mg of Potassium.
 
 .. image:: ../../../images/agriculture/plants/salads/corn-salads.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %

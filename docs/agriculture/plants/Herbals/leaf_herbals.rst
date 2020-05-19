@@ -9,7 +9,9 @@ Tulsi(Holy basil)::
     the less common purplish green-leaved (Krishna tulsi) and the common wild "vana tulsi".
 
 .. image:: ../../../images/agriculture/plants/Herbals/tulsi.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Basil::
 
@@ -28,7 +30,9 @@ Basil::
 
 
 .. image:: ../../../images/agriculture/plants/Herbals/basil.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Mint::
 
@@ -37,7 +41,9 @@ Mint::
     Hybridization occurs naturally where some species range overlap. Many hybrids and cultivars are known.
 
 .. image:: ../../../images/agriculture/plants/Herbals/mint.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Thyme::
 
@@ -46,7 +52,9 @@ Thyme::
     species most commonly cultivated and used for culinary purposes is Thymus vulgaris.
 
 .. image:: ../../../images/agriculture/plants/Herbals/thyme.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Fennel(saumph)::
 
@@ -55,7 +63,9 @@ Fennel(saumph)::
     France and other countries.Fennel fruit is also used in the production of akvavit
 
 .. image:: ../../../images/agriculture/plants/Herbals/fennel.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Coriander(Dhania)::
 
@@ -65,7 +75,9 @@ Coriander(Dhania)::
     dried seeds (as a spice) are the parts most traditionally used in cooking
 
 .. image:: ../../../images/agriculture/plants/Herbals/coriender.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Ginger(Adrakh)::
 
@@ -75,7 +87,9 @@ Ginger(Adrakh)::
     The inflorescences bear pale yellow with purple flowers and arise directly from the rhizome on separate shoots.
 
 .. image:: ../../../images/agriculture/plants/Herbals/ginger.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Echinacea::
 
@@ -85,7 +99,9 @@ Echinacea::
     and open wooded areas
 
 .. image:: ../../../images/agriculture/plants/Herbals/echinacea.jpg
-  :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
 
 Catnip::
 
@@ -108,4 +124,6 @@ Catnip::
     Apply essential oils or leaves topically
 
 .. image:: ../../../images/agriculture/plants/Herbals/cataria.jpg
-    :width: 600
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
