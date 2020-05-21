@@ -1,6 +1,9 @@
 ==================
 Leaf Vegitables
 ==================
+
+
+
 All data collected from:https://www.ars.usda.gov/
 
 Arugula::
@@ -37,19 +40,21 @@ Arugula::
      Promote eye health:
      Lose weight:
 
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
+.. csv-table:: 100G
+   :header: "Nutrition", "Amount", "Benefits"
+   :widths: 20, 20, 10
+
+   "Protien", "26%", "Antioxidant activities"
+   "Fat", "20%", "Promote brain and bones"
+   "Iron"
 
 .. image:: ../../../images/agriculture/plants/salads/arugula.jpg
    :height: 400px
    :width:  400 px
    :scale: 100 %
+
+
 
 Kale::
 
