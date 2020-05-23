@@ -15,7 +15,7 @@ Tulsi(Holy basil)::
 
 Basil::
 
-  Basil (ocimum basilicum) is a common herb used to garnish salads, pasta and many other meals to add delicious flavor.
+  Basi  l (ocimum basilicum) is a common herb used to garnish salads, pasta and many other meals to add delicious flavor.
   Health Benefits:
 
   Reduces stress

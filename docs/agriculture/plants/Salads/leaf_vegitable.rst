@@ -2,8 +2,6 @@
 Leaf Vegitables
 ==================
 
-
-
 All data collected from:https://www.ars.usda.gov/
 
 Arugula::
@@ -12,42 +10,18 @@ Arugula::
     family Brassicaceae used as a leaf vegetable for its fresh, tart, bitter, and peppery flavor.
     In Eastern Saudi Arabia it is widely believed the plant has a lot of health benefits and
     recommended for newlywed couples.
+    Scinticic Name: Eruca sativa
     Common Name: Rocket, Roquette,Rucola, Garden rocket,Rocket,Eruca,Rocket Salad,Arrugula,Gargeer,Roka,Rugula and Tira
 
-    Nutrition Facts:
-    10 grams Arugula also provides
-     0.07 grams of fat,
-     0.26 grams of protein
-     0.36 grams of carbohydrate (including 0.2 grams of total sugars and 0.2 grams of dietary fiber).
-     9.08% of Vitamin K,
-     2.50% of Vitamin B9
-     1.88% of Iron,
-     1.71% of Vitamin A,
-     1.67% of Vitamin C,
-     1.60% of Calcium,
-     1.39% of Manganese
-     1.19% of Magnesium
-
-     Health benefits:
-     Antioxidant activities:
-     Overall health:
-     Promote brain and bones:
-     Enhance immunity:
-     Prevent cancer:
-     Health of prenatal:Arugula is a great choice for mothers because it consists of folic acid which helps to
-                        reduce the development of mental defects in the newborns
-     Promotes metabolism: Arugula possess Vitamin B complex and other eight vitamins which works together
-     Promote eye health:
-     Lose weight:
-
-
 .. csv-table:: 100G
-   :header: "Nutrition", "Amount", "Benefits"
-   :widths: 20, 20, 10
+   :header: "Nutrition", "Amount"
+   :widths: 40, 40
 
-   "Protien", "26%", "Antioxidant activities"
-   "Fat", "20%", "Promote brain and bones"
-   "Iron"
+   "Water", "91.71 g"
+   "Protein", "2.58g"
+   "Energy","25	kcal"
+   "fat", "0.66g"
+   "Calcium", "0.56"
 
 .. image:: ../../../images/agriculture/plants/salads/arugula.jpg
    :height: 400px
