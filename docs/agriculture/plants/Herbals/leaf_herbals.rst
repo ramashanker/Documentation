@@ -1,6 +1,7 @@
 ===============
 Leaf Herbals
 ===============
+All data collected from:`https://fdc.nal.usda.gov/ <https://fdc.nal.usda.gov/>
 
 Tulsi(Holy basil)::
 
@@ -8,10 +9,23 @@ Tulsi(Holy basil)::
     with broad bright green leaves that are slightly sweet leaves),
     the less common purplish green-leaved (Krishna tulsi) and the common wild "vana tulsi".
 
-.. image:: ../../../images/agriculture/plants/Herbals/tulsi.jpg
+|pic1| |table1|
+
+.. |pic1| image:: ../../../images/agriculture/plants/Herbals/tulsi.jpg
    :height: 400px
    :width:  400 px
    :scale: 100 %
+
+.. |table1| csv-table:: Portion per 100G
+   :header: "Nutrients", "Amount"
+   :widths: 20, 20
+
+   "Water", "92.06 g"
+   "Energy", "23 kcal"
+   "Calcium", "177 mg"
+    "Protein", "3.15 g"
+    "Fat", "0.64 g"
+    "Potassium K", "295 mg"
 
 Basil::
 
