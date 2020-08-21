@@ -154,8 +154,3 @@ Litrature Around the world::
          found by hertel in 1908 from jain monk purnabhadra.
 
 
-
-
-
-
-
