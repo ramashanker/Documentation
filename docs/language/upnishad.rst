@@ -88,3 +88,8 @@ Mandukya Upnishad::
    :height: 400px
    :width:  400 px
    :scale: 100 %
+
+.. image:: ../images/upnishad/pineal_use.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
