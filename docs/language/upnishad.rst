@@ -1,3 +1,58 @@
+======================
+Upnishad
+======================
+
+Upnishad::
+
+    The word ‘Upanishad’ has been derived from the root Sad (to sit), to which are added two prefixes:
+    Upa and Ni. The prefix Upa denotes nearness and Ni totality. Thus, this word means ‘sitting near by devotedly’.
+    The Sanskrit term Upaniṣad (from upa "by" and ni-ṣad "sit down")[31] translates to "sitting down near",
+    referring to the student sitting down near the teacher while receiving spiritual knowledge.(Gurumukh)
+    The Upanishads are commonly referred to as Vedānta.
+
+    According to the Muktikopanishad 108 Upanishads are divided according to four Vedas are as follows:
+    10 Upanishads from the Rigveda
+    19 Upanishads from the Shukla-Yajurveda
+    32 Upanishads from the Krishna-Yajurveda
+    16 Upanishads from the Samaveda and
+    31 Upanishads from the Atharvaveda.
+
+    The Principal thirteen Upanishads, related to the Vedas are:
+    (A) Upanishads of the Rigveda :
+        (1) Aitareya Upanishad,
+        (2) Kaushitaki Upanishad
+    (B) Upanishads of the Shukla-Yajurveda:
+        (3) Brihadaranyaka Upanishad,
+        (4) Isha Upanishad
+    (C) Upanishads of the Krishna-Yajurveda:
+        (5) Taittiriya Upanishad,
+        (6) Katha Upanishad,
+        (7) Shvetashvatara Upanishad,
+        (8) Maitrayaniya Upanishad
+    (D) Upanishads of the Samaveda:
+        (9) Chandogya Upanishad,
+        (10) Kena Upanishad
+    (E) Upanishads of the Atharvaveda:
+        (11) Mundaka Upanishad,
+        (12) Mandukya Upanishad,
+        (13) Prashna Upanishad.
+
+Taittiriya Upanishad::
+
+    ॐ सह नाववतु ।
+    सह नौ भुनक्तु ।
+    सह वीर्यं करवावहै ।
+    तेजस्वि नावधीतमस्तु
+    मा विद्विषावहै ।
+    ॐ शान्तिः शान्तिः शान्तिः ॥
+
+    Om! May it protect us both (teacher and student)!
+    May both be nourished
+    May both work together with great energy
+    May both intelect be sharpened (may our study be effective)
+    Let there be no Animosity amongst both of us
+    Om, peace (in me), peace (in nature), peace (in divine forces)
+
 Mandukya Upnishad::
 
     नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम्‌।
@@ -19,3 +74,17 @@ Mandukya Upnishad::
     2) बहिःप्रज्ञं-----waking state------outward wise
     3) प्रज्ञानघनं----deep spleeping----wisdom self gathered
     4) तुरीय ------pure consciousness
+
+    pineal gland(third eye)--The pineal gland produces melatonin, a serotonin-derived hormone which modulates
+    sleep patterns in both circadian and seasonal cycles
+
+    circadian cycle:
+    melatonin tablet: same harmone produce by pineal glands melatonin, a serotonin-derived hormone
+    sleeping cycle: awake state,dream state, deep sleep(you dont know who you are,you are out from your
+    body),Turiya(state)
+    Turiya:---pineal gland is used to reach for turiya
+
+.. image:: /../images/upnishad/pineal_gland.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
