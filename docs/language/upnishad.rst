@@ -84,7 +84,7 @@ Mandukya Upnishad::
     body),Turiya(state)
     Turiya:---pineal gland is used to reach for turiya
 
-.. image:: /../images/upnishad/pineal_gland.jpg
+.. image:: ../images/upnishad/pineal_gland.jpg
    :height: 400px
    :width:  400 px
    :scale: 100 %
