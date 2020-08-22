@@ -2,8 +2,12 @@
 Language
 ============
 
-:doc:`language/Sanskrit`
-:doc:`language/Upnishad`
-:doc:`language/Varna`
-:doc:`language/VastuShastra`
-:doc:`language/Vedas`
+:doc:`language/sanskrit`
+
+:doc:`language/upnishad`
+
+:doc:`language/varna`
+
+:doc:`language/vastushastra`
+
+:doc:`language/vedas`
