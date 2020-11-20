@@ -7,8 +7,6 @@ Tables for land details::
 
     Chandhos land detail as per devision
 
-|table1||table2|
-
 .. |table1| csv-table:: Portion per 100G
    :header: "Nutrients", "Amount"
    :widths: 20, 20
@@ -21,7 +19,6 @@ Tables for land details::
     "Potassium K", "295 mg"
 
 .. |table2| csv-table:: Chandhos Joint land Details
-
    :header: "Village", "Thana No", "T. No.", "Khata No", "Plot No", "Area(Acre)", "Geo cordinate"
    :widths:    20,        20,       20,         20,          20,      20,           20
 
