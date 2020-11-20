@@ -5,11 +5,7 @@ collected from the district courd report dated back 14-8-1970
 
 Tables for land details::
 
-    The three main morphotypes cultivated in India and Nepal are Ram tulsi (the most common type,
-    with broad bright green leaves that are slightly sweet leaves),
-    the less common purplish green-leaved (Krishna tulsi) and the common wild "vana tulsi".
-
-|table1|
+    Chandhos land detail as per devision
 
 .. |table1| csv-table:: Chandhos Joint land Details
 
