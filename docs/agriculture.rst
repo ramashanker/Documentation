@@ -13,3 +13,5 @@ Agriculture
 :doc:`agriculture/technology`
 
 :doc:`agriculture/tools`
+
+:doc:`agriculture/lands/land_details`
