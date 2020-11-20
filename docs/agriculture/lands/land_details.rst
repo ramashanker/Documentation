@@ -11,7 +11,7 @@ Tables for land details::
    :header: "Village",      "Thana",    "T.No.",    "Khata No.",    "Plot No.",  "Area(Acre)",   "Geo cordinate"
    :widths:   20,           20,         20,         20,              20,         20,              20
 
-            "Chandhos",     "280",      "4429",     "174",           "1",        "8.47",        "25.315919, 84.852370"
+            Chandhos,     280,      4429,     174,           1,        8.47,        "25.315919, 84.852370"
 
             "Chandhos",     "280",      "4429",     "174",          "52",        "2.80",        "25.315919, 84.852370"
 
