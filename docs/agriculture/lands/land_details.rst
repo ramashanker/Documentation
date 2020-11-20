@@ -5,15 +5,33 @@ collected from the district courd report dated back 14-8-1970
 
 Tables for land details::
 
-    Chandhos land detail as per devision
+    Chandhos land detail as per devision.
+    Land Coversion Unit.
+    1 Hectare =     2.47 Acre      = 247.105 Decimal  =   107639      SqFeet
+    1 Acre    =     100 Decimal                       =   43560       SqFeet
+    1 Decimal                                         =   435.6       SqFeet
+
+    Bihar Land Unit:
+
+    1 Acre    =   1.6 Bigha    =  32 Katha            =   43560       SqFeet
+    1 Bigha   =   20 Katha     =  62.5 Decimal        =   27225       SqFeet
+    1 Katha   =   20 Dhoor     =  3.125 Decimal       =   1361.25     SqFeet
+    1 Dhoor   =   20 Dhoorki                          =   68.0625     SqFeet
+    1 Dhoorki                                         =   3.40        SqFeet
+
+    1 Kadi                    = 0.66 feet
+    100 kadi                  = 66 feet
+    100 kadi * 100 Kadi       = 4356 SqFeet = 10 decimal = 3.2 Katha
+    125 Kadi * 25 Kadi        = 1 Katha     = 3125 Kadi^2
+
 
 .. |table1| csv-table:: Chandhos Joint land Details 1970
    :header: Village,    Thana,    T.No.,   Khata No.,  Plot No., Area,  Geo_long,    Geo_lat
    :widths:   20,        20,       20,       20,         20,      20,    20,          20
 
-            Chandhos,    280,      4429,     174,         1,        8.47,   25.315919, 84.852370
+            Chandhos,    280,      4429,     174,         1,      8.47,   25.315919, 84.852370
 
-            Chandhos,    280,      4429,     174,         52,      2.80,     25.315919, 84.852370
+            Chandhos,    280,      4429,     174,         52,     2.80,     25.315919, 84.852370
 
             Chandhos,    280,      4429,     174,         62,     0.72,      25.315919, 84.852370
 
