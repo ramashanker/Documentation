@@ -475,5 +475,74 @@ Tables for land details::
 
 
 
+.. |table1| csv-table:: Chandhos current land Details 2020
+   :header:   T.No.,   Khata No.,  Plot No., Acre, Decimal,  Geo_long, Geo_lat, LandName
+   :widths:    20,       20,         20,      20,    20,      20,       20,     30
+               4492,     174,        ",       ",     ",       ",        ",      Nimheta Madhwa sewan
+
+               4429,     174,         92,      0,    47,   25.3155660, 84.8519370, Madhwa Sewan Topra1
+
+               4429,     174,         0,      0,    0,     25.3160570, 84.8545000, Madhwa Sewan topra 2
+
+               4429,     174,         0,      0,    0,     25.3163170, 84.8552880, Madhwa sewan 9bigahwa topra1
+
+               4429,     174,         0,      0,    0,     25.3161630, 84.8552670, Madhwa sewan 9bigahwa topra2
+
+               4429,     174,         0,      0,    0,     25.3160200, 84.8556920, Madhwa sewan 9bigahwa topra3
+
+               4429,     174,         0,      0,    0,     25.3159500, 84.8562270, Madhwa sewan 9bigahwa topra4
+
+               4429,     174,         0,     0,    0,      25.3159420, 84.8549320, Madhwa sewan 9bigahwa topra5
+
+               4429,     174,         0,     0,    0,      25.3157570, 84.8555650, Madhwa sewan 9bigahwa topra6
+
+               4429,     174,         0,     0,    0,      25.3154790, 84.8560660, Madhwa sewan 9bigahwa topra7
+
+               4429,     174,         0,     0,    0,      25.3154750, 84.8551790, Madhwa sewan 9bigahwa topra8
+
+               4429,     174,         0,     0,    0,      25.3151680, 84.8550610, Madhwa sewan topra 9
+
+               4429,     174,         0,     0,    0,      25.3148220, 84.8562230, Madhwa sewan topra 10
+
+               4429,     174,         0,     0,    0,      25.3144560, 84.8561020, Madhwa sewan topra 11
+
+               4429,     174,         0,     0,    0,      25.3142071, 84.8554406, Madhwa sewan topra 12
+
+               4429,     174,         0,     0,    0,      25.3139980, 84.8553640, Madhwa sewan topra13
+
+               4429,     174,         0,    0,    0,       25.3140430, 84.8559050, Madhwa sewan topra 14
+
+               4429,     174,         0,     0,    0,      25.3141558, 84.8564481, Madhwa Sewan topra15
+
+               4429,     174,         0,    0,    0,       25.3133851, 84.8565846, Madhwa sewan topra 16
+
+               4429,     174,         0,    0,    0,       25.3147480, 84.8536420, Madhwa sewan topra17 plot 82
+
+               4429,     174,         0,      0,    0,     25.3064928, 84.8554966, Arnag paein paschim 560
+
+               4429,     174,         0,     0,    0,       25.3064485, 84.8559747, Arnag paein purab
+
+               4429,     174,         0,      0,    0,     25.3068550, 84.8560600, Arnag paein purab dulla singh(topra1)
+
+               4429,     174,         0,      0,    0,     25.3068500, 84.8565030, Arnag paein purab dulla singh(topra2)
+
+               4429,     174,         0,      0,    0,      25.3067330, 84.8560380, Izmail 10 dismil
+
+               4429,     174,         0,    0,    0,        25.3067580, 84.8575530, Jhund Tar  topra1
+
+               4429,     174,         0,    0,  0,          25.3062290, 84.8580620, Jhund Tar topra 2
+
+               4429,     174,         0,   1,   0,          25.3064850, 84.8580830, Jhund Tar  topra 3
+
+               4429,     174,         0,    0,   0,         25.3065060, 84.8587080, Jhund Tar topra 4
+
+               4429,     174,         0,    0,   0,         25.3044632, 84.8580605, Makhduana plot1
+
+               4429,     174,         0,    0,    0,        25.3038940, 84.8576710, Makhduana plot2
+
+               4429,     174,         0,    0,    0,        25.3030653, 84.8579250, Mehtar wala
+
+               4429,     174,         0,     0,    0,       25.3031841, 84.8558467, Road kinare arnag
+
 
 
