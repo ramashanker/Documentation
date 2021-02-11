@@ -262,3 +262,18 @@ Butterhead lettuce::
    :height: 400px
    :width:  400 px
    :scale: 100 %
+
+
+Hop Shoot::
+
+     Hops are the flowers (also called seed cones or strobiles) of the hop plant Humulus lupulus,
+     a member of the Cannabaceae family of flowering plants.[2] They are used primarily as a bittering,
+     flavouring, and stability agent in beer, to which, in addition to bitterness, they impart floral,
+     fruity, or citrus flavours and aromas.[3] Hops are also used for various purposes in other
+     beverages and herbal medicine.
+
+
+.. image:: ../../../images/agriculture/plants/salads/hop-shoots.jpg
+   :height: 400px
+   :width:  400 px
+   :scale: 100 %
