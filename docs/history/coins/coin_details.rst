@@ -21,8 +21,8 @@ Gold Mohur, AH1202::
 
     Price: $2,750.00
 
-.. image:: ../images/history/coins/rama_coin.jpg
+.. image:: ../../images/history/coins/rama_coin.jpg
 
-.. image:: ../images/history/coins/murshidabad_coin.jpg
+.. image:: ../../images/history/coins/murshidabad_coin.jpg
 
-.. image:: ../images/history/coins/certificate.jpg
+.. image:: ../../images/history/coins/certificate.jpg
