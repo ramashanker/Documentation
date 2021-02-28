@@ -23,6 +23,13 @@ Gold Mohur, AH1202::
 
 .. image:: ../../images/history/coins/rama_coin.jpg
 
+Reference ::
+
+
 .. image:: ../../images/history/coins/murshidabad_coin.jpg
+
+
+Certificate ::
+
 
 .. image:: ../../images/history/coins/certificate.jpg
